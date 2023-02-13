@@ -1,8 +1,98 @@
 <%- include('./partials/head') %>
 
-<article>
-  <h1>Hallo wereld!</h1>
-  <p>Alles werk! Laat dit visitekaartje in je browser aan een docent zien :D</p>
-</article>
+  <div class="flip-card-container">
+    <div class="flip-card">
 
-<%- include('./partials/foot') %>
+      <!-- ========== CARD FRONT ========== -->
+      <div class="flip-card-front">
+
+        <div class="picture">
+
+          <div class="text">
+
+            <div class="status">
+              <div class="cirkel">
+              </div>
+              <p>Open to work</p>
+            </div>
+
+            <h2 class="name__person">
+              <%= member.name %>
+                <%= member.prefix %>
+                  <%= member.surname %>
+            </h2>
+
+            <h3 class="function">Frontend Developer</h3>
+          </div>
+        </div>
+        <!-- <img class="picture__front" src="img/sanne2.png" alt="Foto van Sanne"> -->
+
+
+        <div class="buttons">
+          <button class="no" aria-label="weiger">✘</button>
+          <button class="info" aria-label="info"><i class="ri-information-line"></i></button>
+          <button class="yes" aria-label="accept">✔</button>
+        </div>
+
+      </div>
+      <!-- ========== CARD BACK YES ========== -->
+      <div class="flip-card-back1">
+        <button class="return1" aria-label="return"><i class="ri-arrow-left-line"></i></button>
+
+        <h2 class="title"> It's a match! </h2>
+
+        <div class="pictures__match">
+          <img src="img/sanne2.png" alt="foto">
+          <div class="plus">+</div>
+          <img src="img/gebouw3.png" alt="foto">
+        </div>
+
+        <p class="description_1">Sanne is geschikt voor het bedrijf!</p>
+        <p class="description_2">Nodig Sanne via onderstaande knop uit voor een
+          sollicitatiegesprek.</p>
+
+        <div class="mail">
+          <a href="mailto:sannevanseeventer@gmail.com">
+            <span>Stuur een bericht</span>
+            <span class="icon">
+              <i class="fa fa-envelope-o"></i></span>
+          </a>
+        </div>
+      </div>
+
+
+      <!-- ========== INFORMATION ========== -->
+      <div class="flip-card-back2">
+        <button class="return" aria-label="return"><i class="ri-arrow-left-line"></i></button>
+        <h2 class="information"> Informatie </h2>
+        <div class="text__container">
+          <h2 class="text__info">
+            <ul>
+              <li><i class="ri-cake-2-line icons"></i> 26 jaar</li>
+              <li><i class="ri-map-pin-line icons"></i> Amsterdam</li>
+              <li><i class="ri-macbook-line icons"></i> Frontend Design & Development</li>
+              <li><i class="ri-suitcase-line icons"></i></i> Grafisch ontwerper</li>
+            </ul>
+          </h2>
+
+          <h4 class="bio">
+            <i class="ri-message-3-line icons"></i>
+            "<%= member.bio.html %>"
+          </h4>
+        </div>
+      </div>
+
+
+      <!-- ========== CARD BACK NO ========== -->
+      <div class="flip-card-back3">
+        <img class="warning" src="img/warning.png" alt="waarschuwing">
+        <h2 class="title2"> WARNING! </h2>
+        <h3 class="description_3"> Weet je zeker dat je Sanne wilt laten lopen?</h3>
+
+        <div class="buttons2">
+          <button class="no2" aria-label="weiger">✘</button>
+          <button class="yes2" aria-label="accept">✔</button>
+        </div>
+      </div>
+
+      <%- include('./partials/foot') %>
