@@ -42,10 +42,6 @@ body {
     transform: rotateY(180deg);
 }
 
-.flip-card-container.flip.option-4 .flip-card-front {
-    z-index: 1;
-}
-
 .flip-card-container.flip.option-1 .flip-card-back1 {
     z-index: 1;
 }
@@ -446,7 +442,7 @@ ul li {
     margin: 0 auto;
 }
 
-.return {
+.return2 {
     font-size: 1.2rem;
     padding: 0.4em 0.9em 0.3em 0.9em;
     background-color: rgb(237, 237, 237);
@@ -458,7 +454,7 @@ ul li {
 }
 
 
-.return:hover {
+.return2:hover {
     background-color: rgb(129, 129, 129);
     color: white;
     text-transform: uppercase;

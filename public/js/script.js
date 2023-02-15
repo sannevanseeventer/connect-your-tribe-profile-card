@@ -3,7 +3,8 @@ const no = document.querySelector(".no");
 const info = document.querySelector(".info");
 const yes = document.querySelector(".yes");
 const return1 = document.querySelector(".return1");
-const no2= document.querySelector(".no2");
+const return2 = document.querySelector(".return2");
+const no2 = document.querySelector(".no2");
 
 
 no.addEventListener("click", function() {
@@ -27,15 +28,22 @@ yes.addEventListener("click", function() {
 });
 
 return1.addEventListener("click", function() {
-    flipCardContainer.classList.add ("option-4");
-    flipCardContainer.classList.add ("flip");
+    flipCardContainer.classList.remove ("option-1");
+    flipCardContainer.classList.remove ("flip");
 
     console.log('BACKKK')
 });
 
 no2.addEventListener("click", function() {
-    flipCardContainer.classList.add ("option-4");
-    flipCardContainer.classList.add ("flip");
+    flipCardContainer.classList.remove ("option-3");
+    flipCardContainer.classList.remove ("flip");
+
+    console.log('FRONTTT')
+});
+
+return2.addEventListener("click", function() {
+    flipCardContainer.classList.remove ("option-2");
+    flipCardContainer.classList.remove ("flip");
 
     console.log('FRONTTT')
 });
