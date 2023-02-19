@@ -24,7 +24,7 @@ body {
 .flip-card-container {
     width: 25em;
     height: 34em;
-    perspective: 1000px;
+    perspective: 62.5em;
 }
 
 .flip-card {
@@ -106,6 +106,7 @@ body {
     padding: 0 5em 0 5em;
     margin-top: 26.5em;
     z-index: 2;
+    cursor: pointer
 }
 
 .text {
@@ -139,7 +140,7 @@ body {
 
 .name__person {
     color: white;
-    font-family: 'Futura';
+    font-family: 'Futura', sans-serif;
     font-size: 1.5rem;
     text-align: left;
     margin-bottom: 0.1em;
@@ -148,15 +149,15 @@ body {
 .function {
     color: white;
     font-size: 1rem;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 0.05em;
     font-weight: 400;
     text-align: left;
 }
 
 .yes {
-    width: 85px;
-    height: 85px;
+    width: 5.3em;
+    height: 5.3em;
     border-radius: 100%;
     background-color: rgb(233, 233, 233);
     border: 3px rgba(255, 255, 255, 0.5);
@@ -167,10 +168,11 @@ body {
 .yes:hover {
     background-color: rgb(122, 196, 43);
     color: white;
+    cursor: pointer
 }
 
 .info {
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-size: 2em;
     color: rgb(197, 197, 197);
     background-color: transparent;
@@ -178,18 +180,19 @@ body {
 }
 
 .no {
-    width: 85px;
-    height: 85px;
+    width: 5.3em;
+    height: 5.3em;
     border-radius: 100%;
     background-color: rgb(233, 233, 233);
     border: 1px rgba(255, 255, 255, 0.5);
-    font-size: 40px;
+    font-size: 2.5em;
     color: #6fa8d7;
 }
 
 .no:hover {
     background-color: #6fa8d7;
     color: white;
+    cursor: pointer
 }
 
 
@@ -197,7 +200,7 @@ body {
 
 .title {
     color: rgb(61, 61, 61);
-    font-family: 'Futura';
+    font-family: 'Futura', sans-serif;
     font-size: 2em;
     margin-top: 1.2em;
     text-align: center;
@@ -212,7 +215,7 @@ body {
 }
 
 .plus {
-    font: 'Roboto';
+    font: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 2.5em;
     margin-top: -2em;
@@ -234,6 +237,7 @@ body {
     background-color: rgb(129, 129, 129);
     color: white;
     text-transform: uppercase;
+    cursor: pointer
 }
 
 .pictures__match img {
@@ -249,7 +253,7 @@ body {
 .description_1 {
     color: rgb(141, 141, 141);
     font-size: 0.9rem;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 0.05em;
     font-weight: 600;
     text-align: left;
@@ -261,7 +265,7 @@ body {
 .description_2 {
     color: rgb(141, 141, 141);
     font-size: 0.9rem;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 0.05em;
     font-weight: 400;
     text-align: left;
@@ -279,7 +283,7 @@ a {
     height: 3em;
     text-decoration: none;
     text-align: center;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 600;
     letter-spacing: 1px;
     background: rgb(237, 237, 237);
@@ -304,7 +308,7 @@ a span:first-child {
 }
 
 a span.icon {
-    bottom: -100px;
+    bottom: -6.25em;
 }
 
 a span.icon .fa-envelope-o {
@@ -313,9 +317,10 @@ a span.icon .fa-envelope-o {
 
 a:hover {
     background: rgb(129, 129, 129);
-    width: 100px;
-    height: 40px;
+    width: 6.25em;
+    height: 2.5em;
     border-radius: 15px;
+    cursor: pointer
 }
 
 a:hover .icon {
@@ -329,7 +334,7 @@ a:hover .icon {
 
 .title2 {
     color: rgb(61, 61, 61);
-    font-family: 'Futura';
+    font-family: 'Futura', sans-serif;
     font-size: 2em;
     margin-top: 2.5em;
     text-align: center;
@@ -347,7 +352,7 @@ a:hover .icon {
     width: 100%;
     color: rgb(141, 141, 141);
     font-size: 0.95rem;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     text-align: center;
     position: absolute;
@@ -356,12 +361,12 @@ a:hover .icon {
 
 
 .yes2 {
-    width: 85px;
-    height: 85px;
+    width: 5.3em;
+    height: 5.3em;
     border-radius: 100%;
     background-color: rgb(233, 233, 233);
     border: 3px rgba(255, 255, 255, 0.5);
-    font-size: 40px;
+    font-size: 2.5em;
     color: rgb(122, 196, 43);
     cursor: not-allowed;
 }
@@ -373,13 +378,14 @@ a:hover .icon {
 }
 
 .no2 {
-    width: 85px;
-    height: 85px;
+    width: 5.3em;
+    height: 5.3em;
     border-radius: 100%;
     background-color: rgb(233, 233, 233);
     border: 1px rgba(255, 255, 255, 0.5);
-    font-size: 40px;
+    font-size: 2.5em;
     color: #6fa8d7;
+    cursor: pointer
 }
 
 .no2:hover {
@@ -393,6 +399,7 @@ a:hover .icon {
     align-items: center;
     padding: 0 6.2em 0 6.2em;
     margin-top: 16.2em;
+    cursor: pointer
 }
 
 
@@ -401,7 +408,7 @@ a:hover .icon {
 
 .information {
     color: rgb(61, 61, 61);
-    font-family: 'Futura';
+    font-family: 'Futura', sans-serif;
     font-size: 2em;
     margin-top: 1em;
     margin-bottom: 1.3em;
@@ -426,7 +433,7 @@ a:hover .icon {
 ul li {
     color: rgb(141, 141, 141);
     font-size: 1rem;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     list-style-type: none;
     margin-bottom: 1em;
@@ -436,7 +443,7 @@ ul li {
     width: 80%;
     color: rgb(141, 141, 141);
     font-size: 1rem;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     text-align: left;
     margin: 0 auto;
@@ -451,6 +458,7 @@ ul li {
     border: 1px rgba(255, 255, 255, 0.5);
     margin-top: 1.5em;
     margin-left: 16.5em;
+    cursor: pointer
 }
 
 
@@ -458,6 +466,7 @@ ul li {
     background-color: rgb(129, 129, 129);
     color: white;
     text-transform: uppercase;
+    cursor: pointer
 }
 
 .icons {
