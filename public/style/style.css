@@ -156,8 +156,8 @@ body {
 }
 
 .yes {
-    width: 5.3em;
-    height: 5.3em;
+    width: 85px;
+    height: 85px;
     border-radius: 100%;
     background-color: rgb(233, 233, 233);
     border: 3px rgba(255, 255, 255, 0.5);
@@ -166,8 +166,8 @@ body {
 }
 
 .yes:hover {
-    width: 5.3em;
-    height: 5.3em;
+    width: 85px;
+    height: 85px;
     background-color: rgb(122, 196, 43);
     color: white;
     cursor: pointer
@@ -182,8 +182,8 @@ body {
 }
 
 .no {
-    width: 5.3em;
-    height: 5.3em;
+    width: 85px;
+    height: 85px;
     border-radius: 100%;
     background-color: rgb(233, 233, 233);
     border: 1px rgba(255, 255, 255, 0.5);
@@ -192,8 +192,8 @@ body {
 }
 
 .no:hover {
-    width: 5.3em;
-    height: 5.3em;
+    width: 85px;
+    height: 85px;
     background-color: #6fa8d7;
     color: white;
     cursor: pointer
@@ -365,8 +365,8 @@ a:hover .icon {
 
 
 .yes2 {
-    width: 5.3em;
-    height: 5.3em;
+    width: 85px;
+    height: 85px;
     border-radius: 100%;
     background-color: rgb(233, 233, 233);
     border: 3px rgba(255, 255, 255, 0.5);
@@ -376,16 +376,16 @@ a:hover .icon {
 }
 
 .yes2:hover {
-    width: 5.3em;
-    height: 5.3em;
+    width: 85px;
+    height: 85px;
     background-color: rgb(122, 196, 43);
     color: white;
     cursor: not-allowed;
 }
 
 .no2 {
-    width: 5.3em;
-    height: 5.3em;
+    width: 85px;
+    height: 85px;
     border-radius: 100%;
     background-color: rgb(233, 233, 233);
     border: 1px rgba(255, 255, 255, 0.5);
@@ -395,8 +395,6 @@ a:hover .icon {
 }
 
 .no2:hover {
-    width: 5.3em;
-    height: 5.3em;
     background-color: #6fa8d7;
     color: white;
 }
