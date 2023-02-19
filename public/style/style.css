@@ -22,6 +22,7 @@ body {
 /* ======== BASE ======== */
 
 .flip-card-container {
+    padding: 0 1em 0 1em;
     width: 25em;
     height: 34em;
     perspective: 62.5em;
@@ -103,7 +104,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 5em 0 5em;
+    padding: 0 4em 0 4em;
     margin-top: 26.5em;
     z-index: 2;
     cursor: pointer
@@ -143,7 +144,7 @@ body {
     font-family: 'Futura', sans-serif;
     font-size: 1.5rem;
     text-align: left;
-    margin-bottom: 0.1em;
+    margin-bottom: 0.2em;
 }
 
 .function {
@@ -156,8 +157,8 @@ body {
 }
 
 .yes {
-    width: 85px;
-    height: 85px;
+    width: 75px;
+    height: 75px;
     border-radius: 100%;
     background-color: rgb(233, 233, 233);
     border: 3px rgba(255, 255, 255, 0.5);
@@ -166,8 +167,8 @@ body {
 }
 
 .yes:hover {
-    width: 85px;
-    height: 85px;
+    width: 75px;
+    height: 75px;
     background-color: rgb(122, 196, 43);
     color: white;
     cursor: pointer
@@ -182,8 +183,8 @@ body {
 }
 
 .no {
-    width: 85px;
-    height: 85px;
+    width: 75px;
+    height: 75px;
     border-radius: 100%;
     background-color: rgb(233, 233, 233);
     border: 1px rgba(255, 255, 255, 0.5);
@@ -192,8 +193,8 @@ body {
 }
 
 .no:hover {
-    width: 85px;
-    height: 85px;
+    width: 75px;
+    height: 75px;
     background-color: #6fa8d7;
     color: white;
     cursor: pointer
@@ -215,7 +216,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 2em auto;
-    padding: 5.5em 2.5em 0 2.5em;
+    padding: 5.5em 2em 0 2em;
 }
 
 .plus {
@@ -234,7 +235,7 @@ body {
     border-radius: 5px;
     border: 1px rgba(255, 255, 255, 0.5);
     margin-top: 1.5em;
-    margin-left: 16.5em;
+    margin-left: 14em;
 }
 
 .return1:hover {
@@ -245,8 +246,8 @@ body {
 }
 
 .pictures__match img {
-    width: 8em;
-    height: 8em;
+    width: 7em;
+    height: 7em;
     border-radius: 100%;
     margin-top: -5em;
     position: relative;
@@ -262,7 +263,7 @@ body {
     font-weight: 600;
     text-align: left;
     position: absolute;
-    padding: 2em 4em 0 3em;
+    padding: 1em 3em 0 3em;
     margin: 0 auto;
 }
 
@@ -274,7 +275,7 @@ body {
     font-weight: 400;
     text-align: left;
     position: absolute;
-    padding: 3.6em 4em 0 3em;
+    padding: 3em 3em 0 3em;
     margin: 0 auto;
 }
 
@@ -292,7 +293,7 @@ a {
     letter-spacing: 1px;
     background: rgb(237, 237, 237);
     color: rgb(129, 129, 129);
-    border-radius: 15px;
+    border-radius: 10px;
     overflow: hidden;
     transition: all 0.2s ease-in-out;
     transform: 0% 0%;
@@ -349,13 +350,13 @@ a:hover .icon {
     height: 9em;
     position: absolute;
     margin-top: 9em;
-    margin-left: 7.5em;
+    margin-left: 6em;
 }
 
 .description_3 {
     width: 100%;
     color: rgb(141, 141, 141);
-    font-size: 0.95rem;
+    font-size: 0.90rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     text-align: center;
@@ -365,8 +366,8 @@ a:hover .icon {
 
 
 .yes2 {
-    width: 85px;
-    height: 85px;
+    width: 75px;
+    height: 75px;
     border-radius: 100%;
     background-color: rgb(233, 233, 233);
     border: 3px rgba(255, 255, 255, 0.5);
@@ -376,16 +377,16 @@ a:hover .icon {
 }
 
 .yes2:hover {
-    width: 85px;
-    height: 85px;
+    width: 75px;
+    height: 75px;
     background-color: rgb(122, 196, 43);
     color: white;
     cursor: not-allowed;
 }
 
 .no2 {
-    width: 85px;
-    height: 85px;
+    width: 75px;
+    height: 75px;
     border-radius: 100%;
     background-color: rgb(233, 233, 233);
     border: 1px rgba(255, 255, 255, 0.5);
@@ -403,7 +404,7 @@ a:hover .icon {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 6.2em 0 6.2em;
+    padding: 0 5em 0 5em;
     margin-top: 16.2em;
     cursor: pointer
 }
@@ -424,7 +425,6 @@ a:hover .icon {
 .text__container {
     width: 100%;
     position: absolute;
-    margin-left: 1em;
 
 }
 
@@ -463,7 +463,7 @@ ul li {
     border-radius: 5px;
     border: 1px rgba(255, 255, 255, 0.5);
     margin-top: 1.5em;
-    margin-left: 16.5em;
+    margin-left: 14em;
     cursor: pointer
 }
 
@@ -480,4 +480,100 @@ ul li {
     color: #8dbfe8;
     margin-right: 0.5em;
 
+}
+
+@media screen and (min-width: 960px) {
+
+    /* ==== FRONT ==== */
+    .flip-card-container {
+        padding: 0;
+    }
+
+
+    .yes {
+        width: 85px;
+        height: 85px;
+    }
+
+    .yes:hover {
+        width: 85px;
+        height: 85px;
+    }
+
+    .no {
+        width: 85px;
+        height: 85px;
+    }
+
+    .no:hover {
+        width: 85px;
+        height: 85px;
+    }
+
+    .buttons {
+        padding: 0 5em 0 5em;
+    }
+
+    /* ==== BACK - NO ==== */
+
+    .warning {
+        margin-left: 7.8em;
+    }
+
+    .description_3 {
+        font-size: 0.95rem;
+        padding: 13.5em 2em 0 2em;
+    }
+
+
+    .yes2 {
+        width: 85px;
+        height: 85px;
+    }
+
+    .yes2:hover {
+        width: 85px;
+        height: 85px;
+    }
+
+    .no2 {
+        width: 85px;
+        height: 85px;
+    }
+
+    .buttons2 {
+        padding: 0 6.2em 0 6.2em;
+    }
+
+    /* ==== BACK - YES ==== */
+    .pictures__match {
+        padding: 5.5em 3em 0 3em;
+    }
+
+    .pictures__match img {
+        width: 8em;
+        height: 8em;
+    }
+
+    .return1 {
+        margin-left: 16.5em;
+    }
+
+
+    .description_1 {
+        padding: 1.5em 3em 0 3em;
+    }
+
+    .description_2 {
+        padding: 3.5em 3.5em 0 3em;
+    }
+
+    /* ==== BACK - INFO ==== */
+    .text__container {
+        margin-left: 1em;
+    }
+
+    .return2 {
+        margin-left: 16.5em;
+    }
 }
